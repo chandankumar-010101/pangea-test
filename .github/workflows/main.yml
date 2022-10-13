@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
 env:
-  WEBAPP_S3_BUCKET: myadminbucket2029
+  WEBAPP_S3_BUCKET: mybucket2029
   CF_DISTRIBUTION_ID: E3KI2IFMPGU239
 jobs:
   build:
