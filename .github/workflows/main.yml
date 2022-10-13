@@ -13,7 +13,7 @@ jobs:
       image: cirrusci/flutter:3.0.5
     steps:
       - uses: actions/checkout@v3
-      - run: cp .env.staging .env.development
+     # - run: cp .env. .env.development
       - run: |
           sudo apt update && sudo apt install curl -y
           chmod -R 0777 scripts
